@@ -122,6 +122,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelSwagLabs" Key="{27B7126F-1EE6-4428-AA4A-B96152879DA1}">
+										<Image FileName="611541601" Left="6" Top="105" Right="1831" Bottom="267" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Swag Labs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;login_logo&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{F97F3EF8-5108-402D-A03A-53D5CDFAD1EC}">
+										<Image FileName="-1834840228" Left="317" Top="325" Right="1579" Bottom="758" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;login_wrapper-inner&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAcceptedUsernamesAre" Key="{84C1CE46-5CFF-4A3A-92B3-FABFB3975A8F}">
+										<Image FileName="1628376842" Left="-3" Top="503" Right="1917" Bottom="757" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAcceptedUsernamesAre2" Key="{EB9CE164-639D-4E0E-B05B-51A54D7A75F2}">
+										<Image FileName="1582492396" Left="-3" Top="214" Right="1917" Bottom="757" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSwagLabs2" Key="{61DFF24C-C88A-419C-8D74-407306E2676F}">
@@ -153,7 +192,446 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkItem2ImgLink" Key="{6E598A62-B736-4213-961C-A6859729F62D}">
+										<Image FileName="-1039685645" Left="154" Top="331" Right="379" Bottom="689" />
+										<Selectors>
+											<Selector>
+												<Value Value="#item_2_img_link" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div[5]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div[5]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSauceLabsOnesie" Key="{E11C70AA-457C-4977-901A-8ADA55D27E8C}">
+										<Image FileName="-1039685645" Left="154" Top="331" Right="393" Bottom="689" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]//a/img[contains(@src, &apos;media&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//a/img[contains(@class, &apos;inventory_item_img&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;item_2_img_link&apos;]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div[5]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkItem1ImgLink" Key="{B5F1C881-16FF-4DB0-9416-D7BED328523F}">
+										<Image FileName="-933532252" Left="165" Top="783" Right="390" Bottom="1141" />
+										<TypeInfo Item0="{66F8280D-6B23-4064-9E77-8757C19E16AC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#item_1_img_link" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div[3]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSauceLabsBoltTShirt" Key="{CBE9CC27-2C1D-453C-9CA4-E4E89A4EFF6C}">
+										<Image FileName="-933532252" Left="165" Top="783" Right="404" Bottom="1141" />
+										<TypeInfo Item0="{491573DB-FB68-455F-B9A8-C913D832717E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]//a/img[contains(@src, &apos;media&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//a/img[contains(@class, &apos;inventory_item_img&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;item_1_img_link&apos;]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div[3]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{24F688D8-1793-45BB-A9A5-490E9722BFE3}">
+										<Image FileName="-1286218489" Left="1540" Top="278" Right="1876" Bottom="324" />
+										<TypeInfo Item0="{EC642243-8E04-43A1-AD94-E3C4BDBD03CB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;product_sort_container&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[contains(@class, &apos;product_sort_container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header_container&apos;]//select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToCartSauceLabsBackpack" Key="{1F79DF60-8352-4058-AFEB-BED62F8DAECE}">
+										<Image FileName="408527958" Left="618" Top="672" Right="858" Bottom="722" />
+										<TypeInfo Item0="{DFE131AF-30C6-4F27-94E2-364EAD2EB757}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;add-to-cart-sauce-labs-backpack&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#add-to-cart-sauce-labs-backpack" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;add-to-cart-sauce-labs-backpack&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Add to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div/div/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSwagLabs" Key="{3E39D2F3-5092-4900-8F95-F524F27A2180}">
+										<Image FileName="408527958" Left="75" Top="169" Right="1820" Bottom="241" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Swag Labs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;app_logo&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToCartSauceLabsBikeLig" Key="{9BC3DB7D-D88E-484F-AC7D-56D2DC8DD7B9}">
+										<Image FileName="-1068346130" Left="1462" Top="683" Right="1702" Bottom="733" />
+										<TypeInfo Item0="{67F615EA-0139-42DA-8548-55F4CD4C41D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;add-to-cart-sauce-labs-bike-light&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#add-to-cart-sauce-labs-bike-light" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;add-to-cart-sauce-labs-bike-light&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div[2]/div/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;inventory_container&apos;]//div/div[2]/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSwagLabs2" Key="{8969B50B-8CA3-43D0-95C2-581F033D6121}">
+										<Image FileName="997701047" Left="11" Top="174" Right="1906" Bottom="258" />
+										<TypeInfo Item0="{491573DB-FB68-455F-B9A8-C913D832717E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Swag Labs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;header_label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelInventoryContainer" Key="{E77F033A-68F7-42DE-8134-671855ECD23B}">
+										<Image FileName="887311465" Left="-3" Top="220" Right="1900" Bottom="1046" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;inventory_container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
+							</Child>
+							<Child Name="pageSwagLabs3" Key="{A37C8685-DD08-4379-9336-4105D5B6FA24}">
+								<Image FileName="1487672111" Left="0" Top="163" Right="1920" Bottom="1008" />
+								<TypeInfo Item0="{86109F9B-57D1-49B1-84A0-6ABD448B136E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/inventory-item.html*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="footerTwitter" Key="{972151A4-25A6-45EA-8949-B2AEC9CF27DE}">
+										<Image FileName="1508629272" Left="0" Top="798" Right="1895" Bottom="1008" />
+										<Selectors>
+											<Selector>
+												<Value Value="//footer[contains(., &apos;Twitter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer[contains(@class, &apos;footer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page_wrapper&apos;]/footer" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTwitter" Key="{41BED214-569C-43C3-A21D-1D2242133A5D}">
+										<Image FileName="1508629272" Left="15" Top="849" Right="300" Bottom="894" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Twitter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;social&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page_wrapper&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFacebook" Key="{429A2CBB-5238-479C-BE10-7BE4907BD871}">
+										<Image FileName="1508629272" Left="150" Top="849" Right="195" Bottom="894" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Facebook&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;social_facebook&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFacebook" Key="{34C0FA2F-9D8F-4950-8BAB-7BDD88673031}">
+										<Image FileName="1508629272" Left="150" Top="849" Right="195" Bottom="894" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Facebook&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page_wrapper&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSauceLabsFacebook" Key="{B4916D5E-E016-4301-92E2-35B3B041B4E3}">
+								<Image FileName="957491741" Left="0" Top="163" Right="1920" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.facebook.com/saucelabs" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginPopupCtaForm" Key="{38A7615B-89D2-42EF-8BD5-215853AE63EB}">
+										<Image FileName="957491741" Left="583" Top="264" Right="1312" Bottom="866" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login_popup_cta_form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Connect with Sauce Labs on Facebook&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeConnectWithSauceLabsOn" Key="{6B59BB55-098F-4B87-B722-903B6893A0F8}">
+										<Image FileName="-335040647" Left="631" Top="264" Right="1264" Bottom="365" />
+										<TypeInfo Item0="{B43647DA-6196-40FA-9C0D-DFDA42814018}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Connect with Sauce Labs on Facebook&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/form/div/div/span[contains(@class, &apos;x1lliihq&apos;)]/span[contains(@class, &apos;x1lliihq&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;login_popup_cta_form&apos;]//div/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/form/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wnd32768" Key="{51E86B3D-B89C-4A88-B011-B49EB8DBAEE4}">
+								<Image FileName="-68529591" Left="0" Top="0" Right="387" Bottom="424" />
+								<TypeInfo Item0="{7DCE6FFE-850E-4DCF-A264-912A50060D99}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32768" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{CFFEFBEE-DE36-4C94-A355-E1A84C2AB4C0}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{BC207EBA-CDB7-4CD8-884E-C0337B95DB79}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{9C573FCC-863E-45EA-BFAC-7020EE794B2A}">
+										<TypeInfo Item0="{24AE7E25-0E27-42FC-8C6B-E9CE3FEDBBF3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndProgman" Key="{D3A1EE98-9F6F-4030-9976-41366B968F3C}">
+								<Image FileName="1266433500" Left="0" Top="0" Right="3840" Bottom="2160" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Progman" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Program Manager" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{588014D4-B9B1-4C55-8761-80AB0A383E0F}" ExtendedFind="True">
+										<Image FileName="1266433500" Left="0" Top="0" Right="3840" Bottom="2160" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FolderView" Key="{4836E0DE-F567-4CAF-90B8-0F4EE327F50B}">
+												<Image FileName="1266433500" Left="0" Top="0" Right="3840" Bottom="2160" />
+												<TypeInfo Item0="{79BEB4B7-3DE3-4322-9CEE-12A774BDA433}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="slack" Key="{170548C8-6984-4D0B-9FC5-7E0137DD886D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="slack" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndChrome_WidgetWin_1" Key="{CEA5D801-A6B6-412B-A841-78F486D1A1FA}">
+								<Image FileName="-620985710" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="office-work - SmartBear - Slack" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{1A1C6172-AD28-43E6-BE8E-E7FF6128C302}">
+										<Image FileName="-620985710" Left="0" Top="0" Right="1920" Bottom="1008" />
+										<TypeInfo Item0="{24AE7E25-0E27-42FC-8C6B-E9CE3FEDBBF3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_12" Key="{793941FB-C92F-4915-B1FC-CD752310E910}">
+								<Image FileName="513263565" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Krzysztof Dziadul - SmartBear - Slack" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{9EB90678-1FAF-4911-AE1A-DA15B710778C}">
+										<Image FileName="513263565" Left="0" Top="0" Right="1920" Bottom="1008" />
+										<TypeInfo Item0="{24AE7E25-0E27-42FC-8C6B-E9CE3FEDBBF3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="bdcam" Key="{C149A8F4-048B-4A2B-91C7-F40142581410}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="bdcam" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndBandicam2x" Key="{A8B35180-EC84-46B0-A249-C82F6F9CEBD5}">
+								<Image FileName="720632010" Left="0" Top="0" Right="1395" Bottom="1008" />
+								<TypeInfo Item0="{7DCE6FFE-850E-4DCF-A264-912A50060D99}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Bandicam2.x" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Bandicam 2023 (Niezarejestrowany)" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -168,10 +646,62 @@
 				<Child Name="submitbuttonLogin" Owner="{6D9A2B33-1883-4FB3-8422-FB5850EE0295}" />
 				<Child Name="textboxUserName" Owner="{8C71EE71-2C52-4C6B-A60D-3CE57CFA28F0}" />
 				<Child Name="passwordboxPassword" Owner="{2709A834-2CD4-4D31-BE66-7B20E8030751}" />
+				<Child Name="panelSwagLabs" Owner="{27B7126F-1EE6-4428-AA4A-B96152879DA1}" />
+				<Child Name="panel" Owner="{F97F3EF8-5108-402D-A03A-53D5CDFAD1EC}" />
+				<Child Name="panelAcceptedUsernamesAre" Owner="{84C1CE46-5CFF-4A3A-92B3-FABFB3975A8F}" />
+				<Child Name="panelAcceptedUsernamesAre2" Owner="{EB9CE164-639D-4E0E-B05B-51A54D7A75F2}" />
 			</Child>
 			<Child Name="pageSwagLabs2" Owner="{61DFF24C-C88A-419C-8D74-407306E2676F}">
 				<Child Name="textnodeProducts" Owner="{344D1BB0-A117-47F7-AC16-9E08879E3DDF}" />
+				<Child Name="linkItem2ImgLink" Owner="{6E598A62-B736-4213-961C-A6859729F62D}">
+					<Child Name="imageSauceLabsOnesie" Owner="{E11C70AA-457C-4977-901A-8ADA55D27E8C}" />
+				</Child>
+				<Child Name="linkItem1ImgLink" Owner="{B5F1C881-16FF-4DB0-9416-D7BED328523F}">
+					<Child Name="imageSauceLabsBoltTShirt" Owner="{CBE9CC27-2C1D-453C-9CA4-E4E89A4EFF6C}" />
+				</Child>
+				<Child Name="select" Owner="{24F688D8-1793-45BB-A9A5-490E9722BFE3}" />
+				<Child Name="buttonAddToCartSauceLabsBackpack" Owner="{1F79DF60-8352-4058-AFEB-BED62F8DAECE}" />
+				<Child Name="panelSwagLabs" Owner="{3E39D2F3-5092-4900-8F95-F524F27A2180}" />
+				<Child Name="buttonAddToCartSauceLabsBikeLig" Owner="{9BC3DB7D-D88E-484F-AC7D-56D2DC8DD7B9}" />
+				<Child Name="panelSwagLabs2" Owner="{8969B50B-8CA3-43D0-95C2-581F033D6121}" />
+				<Child Name="panelInventoryContainer" Owner="{E77F033A-68F7-42DE-8134-671855ECD23B}" />
 			</Child>
+			<Child Name="pageSwagLabs3" Owner="{A37C8685-DD08-4379-9336-4105D5B6FA24}">
+				<Child Name="footerTwitter" Owner="{972151A4-25A6-45EA-8949-B2AEC9CF27DE}">
+					<Child Name="textnodeTwitter" Owner="{41BED214-569C-43C3-A21D-1D2242133A5D}">
+						<Child Name="textnodeFacebook" Owner="{429A2CBB-5238-479C-BE10-7BE4907BD871}">
+							<Child Name="linkFacebook" Owner="{34C0FA2F-9D8F-4950-8BAB-7BDD88673031}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSauceLabsFacebook" Owner="{B4916D5E-E016-4301-92E2-35B3B041B4E3}">
+				<Child Name="formLoginPopupCtaForm" Owner="{38A7615B-89D2-42EF-8BD5-215853AE63EB}">
+					<Child Name="textnodeConnectWithSauceLabsOn" Owner="{6B59BB55-098F-4B87-B722-903B6893A0F8}" />
+				</Child>
+			</Child>
+			<Child Name="wnd32768" Owner="{51E86B3D-B89C-4A88-B011-B49EB8DBAEE4}" />
+		</Child>
+		<Child Name="explorer" Owner="{CFFEFBEE-DE36-4C94-A355-E1A84C2AB4C0}">
+			<Child Name="wndShell_TrayWnd" Owner="{BC207EBA-CDB7-4CD8-884E-C0337B95DB79}">
+				<Child Name="DesktopWindowXamlSource" Owner="{9C573FCC-863E-45EA-BFAC-7020EE794B2A}" />
+			</Child>
+			<Child Name="wndProgman" Owner="{D3A1EE98-9F6F-4030-9976-41366B968F3C}">
+				<Child Name="SHELLDLL_DefView" Owner="{588014D4-B9B1-4C55-8761-80AB0A383E0F}">
+					<Child Name="FolderView" Owner="{4836E0DE-F567-4CAF-90B8-0F4EE327F50B}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="slack" Owner="{170548C8-6984-4D0B-9FC5-7E0137DD886D}">
+			<Child Name="wndChrome_WidgetWin_1" Owner="{CEA5D801-A6B6-412B-A841-78F486D1A1FA}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{1A1C6172-AD28-43E6-BE8E-E7FF6128C302}" />
+			</Child>
+			<Child Name="wndChrome_WidgetWin_12" Owner="{793941FB-C92F-4915-B1FC-CD752310E910}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{9EB90678-1FAF-4911-AE1A-DA15B710778C}" />
+			</Child>
+		</Child>
+		<Child Name="bdcam" Owner="{C149A8F4-048B-4A2B-91C7-F40142581410}">
+			<Child Name="wndBandicam2x" Owner="{A8B35180-EC84-46B0-A249-C82F6F9CEBD5}" />
 		</Child>
 	</LogicalNodes>
 </Root>
